@@ -1,0 +1,113 @@
+.page-inner {
+    background-color: white;
+    padding: 10px;
+    @include box-shadow(0 1px 3px rgba(0,0,0,.055));
+    margin-top:65px;
+    @media (min-width: $screen-sm-min){
+        margin-top:75px;
+    }
+}
+footer {
+    font-size: 10.5px;
+    padding: 20px 0 80px 0;
+    background-color: #e3e3e3;
+    margin-top:30px;
+    .copyright{
+    	@media (max-width: $screen-sm-min){
+    		text-align: center;
+    	}
+    }
+}
+.top-intro{
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 110px;
+    margin-top: 15px;
+}
+.img-wt{
+    @media (max-width: $screen-sm-min){
+        max-width: 100%;
+        height: auto;
+    }
+}
+.height70{
+	height:70px;
+}
+.height30{
+	height:30px;
+}
+.height15{
+    height:15px;
+}
+.mem-tier-img{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: -41px;
+    z-index: 1;
+}
+@media (max-width: 768px){
+    .mem-tier-img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+.silver-acc{
+    border:2px solid $grey;
+    padding: 85px 16px 16px 16px;
+    min-height:480px;
+    position:relative;
+}
+.gold-acc{
+    border:2px solid $yellow;
+    padding: 85px 16px 16px 16px;
+    min-height:480px
+}
+.premium-acc{
+    border:2px solid black;
+    padding: 85px 16px 16px 16px;
+    min-height:480px
+}
+.tier-info{
+    margin-bottom:30px;
+}
+.tier-info .t1{
+    font-size:20px;
+    font-weight:bold;
+}
+.tier-info .t2{
+    font-size:14px;
+    font-weight:bold;
+}
+.tier-line{
+    height:8px;
+    width:100%; 
+    margin-top:4px;
+    margin-bottom:50px;
+}
+.silver{
+    background:$grey;   
+}
+.gold{
+    background:$yellow;
+}
+.premium{
+    background:black;
+}
+.carou-container {
+    width:290px;
+    height:594px;
+    padding-top:60px;
+    padding-left:15px;
+    overflow: auto;
+    background: url(../img/iphone.png) no-repeat;
+}
+.abc{
+    @include box-shadow(0 2px 10px rgba(0,0,0,.25));
+}
+.link-blue{
+    color:#537cbe;
+    font-size:12px;
+}
